@@ -25,7 +25,7 @@ const Contact = () => {
                 {
                     data.map((props) => {
                         return <article className='contact__option'>
-                                <MdOutlineMail className='contact__option-icon'/>
+                            {<props.icon className='contact__option-icon' />}
                                 <h4>{props.h4}</h4>
                                 <h5>{props.h5}</h5>
                                 <a href={props.link} target='_blank'>Send a message</a>
