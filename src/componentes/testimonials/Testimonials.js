@@ -3,7 +3,7 @@ import "./testimonials.css";
 import {data} from  './testimonialsData'
 
 // import Swiper core and required modules
-import { Pagination, A11y } from 'swiper';
+import { Pagination } from 'swiper';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -14,7 +14,7 @@ import 'swiper/css/pagination';
 
 const Testimonials = () => {
     return (
-        <section id='Testimonials'>
+        <section id='testimonials'>
             <h5>Review from clients</h5>
             <h2>Testimonials</h2>
 
